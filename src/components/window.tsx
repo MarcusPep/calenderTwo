@@ -35,14 +35,7 @@ export function WindowStuff(props: IWindowProps) {
   return (
     <Paper className={styles.windowPaper} elevation={3}>
       <div className={opened ? "" : ""}>
-        <div className={styles.Icon}>
-          {props.iconComponent.icon}
-          {opened
-            ? // <p>{`Opened at ${props.iconComponent.windowNumber}. December`}</p>
-              null
-            : // null
-              null}
-        </div>
+        <div className={styles.Icon}>{props.iconComponent.icon}</div>
       </div>
     </Paper>
   );
