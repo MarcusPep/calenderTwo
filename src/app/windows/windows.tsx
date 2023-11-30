@@ -24,8 +24,8 @@ export function Win(props: IAppProps) {
     if (props.winEl) {
       if (
         props.winEl?.windowNumber > 0 &&
-        props.winEl?.windowNumber < props.day &&
-        props.month == 12
+        props.winEl?.windowNumber <= props.day &&
+        props.month == 11
       ) {
         return true;
       } else {
