@@ -2,7 +2,6 @@ import * as React from "react";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import styles from "./window.module.scss";
-import AcUnitIcon from "@mui/icons-material/AcUnit";
 import Link from "next/link";
 import { windowElememt } from "../../public/window_element";
 
