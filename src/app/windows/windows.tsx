@@ -2,16 +2,14 @@ import * as React from "react";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
-import {
-  Button,
-  Dialog,
-  DialogActions,
-  DialogContent,
-  DialogTitle,
-} from "@material-ui/core";
 import { windowElememt } from "../../../public/window_element";
 import macbookIphone from "../../../public/vercel.svg";
 import styles from "./windowsss.module.scss";
+import Button from "@mui/material/Button";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogTitle from "@mui/material/DialogTitle";
 
 export interface IAppProps {
   open: boolean;
